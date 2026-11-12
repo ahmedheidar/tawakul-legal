@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tawakul</title>
+  <meta name="description" content="Prayer times and reminders, with an optional App Lock that holds your distracting apps until you've prayed.">
+  <style>
+:root {
+  --bg: #f3f5f5;
+  --surface: #ffffff;
+  --ink: #111111;
+  --ink-2: #5d6566;
+  --accent: #1c6b6c;
+  --hairline: #dde3e3;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0e28;
+    --surface: #141b38;
+    --ink: #ffffff;
+    --ink-2: #b0bace;
+    --accent: #e0a24a;
+    --hairline: #2a3255;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.6 ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 20px 80px;
+}
+
+h1 { font-size: 34px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 22px; margin: 36px 0 8px; }
+h3 { font-size: 18px; margin: 24px 0 4px; }
+p, li { color: var(--ink); }
+.muted { color: var(--ink-2); font-size: 15px; }
+a { color: var(--accent); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  padding: 20px 22px;
+  margin: 20px 0;
+}
+
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--hairline); vertical-align: top; }
+
+nav { margin-bottom: 32px; font-size: 15px; }
+nav a { margin-right: 16px; }
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav>
+  <h1>Tawakul</h1>
+  <p>Prayer times and reminders for wherever you are, with an optional App Lock that holds your most distracting apps until you've prayed.</p>
+  <div class="card">
+    <p><strong>Support:</strong> email <a href="mailto:ahmedsalahheidar@gmail.com">ahmedsalahheidar@gmail.com</a> and we'll get back to you within two business days.</p>
+    <p class="muted">Tawakul is a personal reminder tool. Prayer times are calculated estimates; follow your local mosque when they differ.</p>
+  </div>
+
+  <h2>Common questions</h2>
+  <h3>My prayer times don't match my mosque</h3>
+  <p>Open Settings and choose the calculation method and Asr setting your mosque uses. "Automatic" picks the method most used in your region.</p>
+  <h3>App Lock didn't block my apps</h3>
+  <p>Check that App Lock shows <em>Active</em> on the Home screen, that Screen Time permission is still granted, and that you've selected at least one app or category. On the App Lock screen, <em>Recent App Lock activity</em> shows what happened at each prayer; tap <em>Copy activity</em> and email it to us.</p>
+  <h3>How do I unlock my apps?</h3>
+  <p>Open Tawakul and tap <em>I prayed</em> on the prayer. You can also turn App Lock off at any time in Settings.</p>
+  <h3>How do I delete my account?</h3>
+  <p>An account is optional. If you created one, sign in and go to Settings → Delete Account. This permanently deletes your account.</p>
+</main>
+</body>
+</html>

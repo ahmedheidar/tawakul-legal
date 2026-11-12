@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy</title>
+  <meta name="description" content="How Tawakul handles your data.">
+  <style>
+:root {
+  --bg: #f3f5f5;
+  --surface: #ffffff;
+  --ink: #111111;
+  --ink-2: #5d6566;
+  --accent: #1c6b6c;
+  --hairline: #dde3e3;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0e28;
+    --surface: #141b38;
+    --ink: #ffffff;
+    --ink-2: #b0bace;
+    --accent: #e0a24a;
+    --hairline: #2a3255;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 17px/1.6 ui-rounded, -apple-system, BlinkMacSystemFont, "SF Pro Rounded", "Segoe UI", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 20px 80px;
+}
+
+h1 { font-size: 34px; line-height: 1.2; margin: 0 0 8px; }
+h2 { font-size: 22px; margin: 36px 0 8px; }
+h3 { font-size: 18px; margin: 24px 0 4px; }
+p, li { color: var(--ink); }
+.muted { color: var(--ink-2); font-size: 15px; }
+a { color: var(--accent); }
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  padding: 20px 22px;
+  margin: 20px 0;
+}
+
+table { width: 100%; border-collapse: collapse; font-size: 15px; }
+th, td { text-align: left; padding: 10px 8px; border-bottom: 1px solid var(--hairline); vertical-align: top; }
+
+nav { margin-bottom: 32px; font-size: 15px; }
+nav a { margin-right: 16px; }
+  </style>
+</head>
+<body>
+<main>
+  <nav><a href="index.html">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Use</a></nav>
+  <h1>Privacy Policy</h1>
+  <p class="muted">Last updated: November 12, 2026</p>
+
+  <div class="card">
+    <p><strong>The short version.</strong> There are no ads, no analytics and no tracking, and an account is optional. Your location is used only to calculate prayer times and is not stored by us. The apps you choose for App Lock stay on your iPhone, and Apple's Screen Time keeps them private even from Tawakul.</p>
+  </div>
+
+  <p>This policy explains how Tawakul ("the app", "we") handles information. The app is provided by Ahmed Heidar.</p>
+
+  <h2>Data stored only on your device</h2>
+  <p>The following stays on your iPhone, and we never receive it:</p>
+  <ul>
+    <li>your chosen city, timezone, calculation method and Asr setting;</li>
+    <li>the prayer times the app has downloaded, including the copy your widgets show;</li>
+    <li>your check-ins for each prayer;</li>
+    <li>App Lock settings, the apps and categories you select, and the App Lock activity log;</li>
+    <li>notification schedules and your appearance setting.</li>
+  </ul>
+  <p>It is included in your iPhone backups according to your iOS settings. Deleting the app deletes it.</p>
+
+  <h2>App Lock and Screen Time</h2>
+  <p>App Lock uses Apple's Screen Time framework (Family Controls). You choose apps and categories with Apple's own picker, and the app receives only opaque tokens: it cannot see the names of the apps you choose or how you use them. Blocking happens on your device, and this information is never sent to us or anyone else.</p>
+
+  <h2>Data that leaves your device</h2>
+  <table>
+    <tr><th>What</th><th>Sent to</th><th>Why</th></tr>
+    <tr>
+      <td>Your location (from GPS, or the coordinates of a city you chose), today's date and your calculation settings</td>
+      <td>Aladhan (api.aladhan.com)</td>
+      <td>To calculate prayer times for where you are. We do not store your location. See <a href="https://aladhan.com">aladhan.com</a>.</td>
+    </tr>
+    <tr>
+      <td>The city name you type when searching for a city</td>
+      <td>Apple</td>
+      <td>To find that city's coordinates (Apple's geocoding service). See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</td>
+    </tr>
+    <tr>
+      <td>Requests for the daily verse and hadith, which contain no personal data</td>
+      <td>AlQuran Cloud (api.alquran.cloud) and jsDelivr (cdn.jsdelivr.net)</td>
+      <td>To load the Daily Inspiration content. Like any website, these services can see the request's IP address.</td>
+    </tr>
+    <tr>
+      <td>Only if you create an account: your email address, your name if you share it through Sign in with Apple, and an account ID</td>
+      <td>Supabase, Inc.</td>
+      <td>To let you sign in. See <a href="https://supabase.com/privacy">Supabase's Privacy Policy</a>.</td>
+    </tr>
+  </table>
+  <p>We do not sell your data or share it for advertising, and we do not track you across other companies' apps or websites.</p>
+
+  <h2>Location</h2>
+  <p>The app asks for your location only while you use it, and only to calculate prayer times. You can decline and choose a city instead.</p>
+
+  <h2>Notifications</h2>
+  <p>Prayer reminders are scheduled locally on your device. We do not run a push notification server.</p>
+
+  <h2>Accounts</h2>
+  <p>An account is optional and every feature works without one. If you create one, you can delete it at any time in Settings → Delete Account, which permanently deletes your account and the data linked to it.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed to children under 13, and we do not knowingly collect personal information from children.</p>
+
+  <h2>Your choices and rights</h2>
+  <ul>
+    <li>Use the app without an account, and without location by choosing a city.</li>
+    <li>Turn App Lock off or change the selected apps at any time.</li>
+    <li>Delete your account in Settings.</li>
+    <li>Depending on where you live (for example under the GDPR or CCPA), you may have rights to access or delete data about you. Contact us and we will help.</li>
+  </ul>
+
+  <h2>Changes</h2>
+  <p>If we change this policy, we will update the date above. Significant changes will also be mentioned in the app's update notes.</p>
+
+  <h2>Contact</h2>
+  <p>Ahmed Heidar, <a href="mailto:ahmedsalahheidar@gmail.com">ahmedsalahheidar@gmail.com</a></p>
+</main>
+</body>
+</html>
